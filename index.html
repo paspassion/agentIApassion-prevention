@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Passion Prévention</title>
-
+  <title>Passion Prévention IA</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-  <div id="app">
+<div class="layout">
 
-    <header class="header">
-      <img src="assets/logo.png" class="logo" alt="Passion Prévention">
-
-      <nav>
-        <a href="#">Accueil</a>
-        <a href="#">Services</a>
-        <a href="#">Solutions</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-
-    <main class="hero">
-
-      <div class="hero-left">
-        <h1>
-          Votre partenaire<br>
-          <span>Prévention & Performance</span>
-        </h1>
-
-        <p>
-          Passion Prévention vous accompagne dans la prévention des risques professionnels et les solutions digitales intelligentes.
-        </p>
-
-        <div class="buttons">
-          <button>Nos solutions</button>
-          <button class="secondary">Nous contacter</button>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <img src="assets/logo.png" class="hero-logo" alt="Passion Prévention">
-      </div>
-
-    </main>
-<section class="agents">
-
-    <h2>Nos Agents IA</h2>
-
-    <div class="agent-grid">
-
-        <div class="agent-card">
-            <h3>🤖 SocialBot</h3>
-            <p>
-                Génération automatique de posts LinkedIn, Facebook,
-                Instagram, Google Business et TikTok.
-            </p>
-            <button>Ouvrir</button>
-        </div>
-
-        <div class="agent-card">
-            <h3>📧 MailBot</h3>
-            <p>
-                Réponses automatiques aux demandes clients
-                et génération de devis intelligents.
-            </p>
-            <button>Ouvrir</button>
-        </div>
-
-        <div class="agent-card">
-            <h3>🔥 PreventionBot</h3>
-            <p>
-                Assistant prévention risques professionnels,
-                incendie et habilitation électrique.
-            </p>
-            <button>Ouvrir</button>
-        </div>
-
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Passion Prévention">
+      <strong>Passion Prévention</strong>
     </div>
 
-</section>
-  </div>
+    <nav class="side-nav">
+      <a class="active">Tableau de bord</a>
+      <a>Nouveau chat</a>
+      <a>Rechercher</a>
+      <a>Cerveau IA</a>
+      <a>Paramètres</a>
+    </nav>
 
-  <script src="js/app.js"></script>
+    <div class="side-section">
+      <span>HUB AGENT</span>
+      <a>Hub Acquisition</a>
+      <a>Hub Créatif</a>
+      <a>Hub Gestion</a>
+      <a>Hub SEO</a>
+    </div>
+  </aside>
 
+  <main class="main">
+
+    <section class="top-card">
+      <div>
+        <h1>Agents IA Passion Prévention</h1>
+        <p>Centralisez vos assistants IA, vos automatisations Make et vos futurs outils métiers.</p>
+      </div>
+      <button>Paramètres</button>
+    </section>
+
+    <div class="tabs">
+      <button>Hub Acquisition</button>
+      <button>Hub Créatif</button>
+      <button>Hub Gestion</button>
+      <button>Hub SEO</button>
+    </div>
+
+    <section class="agents-grid">
+
+      <article class="agent-card">
+        <div class="agent-icon">📣</div>
+        <h3>SocialBot</h3>
+        <p>Génération de posts LinkedIn, Facebook, Instagram et Google Business.</p>
+        <span>Actif</span>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon">📧</div>
+        <h3>MailBot</h3>
+        <p>Réponses automatiques aux demandes clients et préparation de devis.</p>
+        <span>À connecter</span>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon">🔥</div>
+        <h3>PreventionBot</h3>
+        <p>Assistant prévention, incendie, évacuation et habilitation électrique.</p>
+        <span>En préparation</span>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon">🛒</div>
+        <h3>OdooBot</h3>
+        <p>Aide à la création de fiches produits et automatisations e-commerce.</p>
+        <span>À connecter</span>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon">⚙️</div>
+        <h3>MakeBot</h3>
+        <p>Connexion future avec vos scénarios Make.com et workflows internes.</p>
+        <span>À configurer</span>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon">📊</div>
+        <h3>SeoBot</h3>
+        <p>Optimisation SEO, descriptions produits, titres et méta descriptions.</p>
+        <span>Actif</span>
+      </article>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
